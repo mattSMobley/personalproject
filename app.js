@@ -484,8 +484,8 @@ $('.btn-info').on('click', (function() {
       if (monthVal==="january"){
         console.log('INSIDE THE IF STATEMENT ABOUT TO ADD LOCATIONS')
         $('#result1').append("Phuket, Thailand");
-        $('#result2').append("Azores, Islands");
-        $('#result3').append("Canary, Islands");
+        $('#result2').append("Azores Islands");
+        $('#result3').append("Canary Islands");
         $('#result4').append("Cape Town, Africa");
         $('#result5').append("Siem Riep, Cambodia");
       } else if(monthVal==="february") {
@@ -536,7 +536,25 @@ $('.btn-info').on('click', (function() {
             $('#result3').append("Goreme, Turkey");
             $('#result4').append("Prague, Czech Republic");
             $('#result5').append("Zermatt, Switzerland");
-          }
+      } else if(monthVal==="october") {
+                $('#result1').append("Hanoi, Vietnam");
+                $('#result2').append("Kyoto, Japan");
+                $('#result3').append("Grand Canyon, U.S.A.");
+                $('#result4').append("Marrakech, Morocco");
+                $('#result5').append("Salvador, Brazil");
+      } else if(monthVal==="november") {
+            $('#result1').append("Azores Islands");
+            $('#result2').append("Isla Mujeres, Mexico");
+            $('#result3').append("Philipsburg, Sint Maarten");
+            $('#result4').append("Phuket, Thailand");
+            $('#result5').append("Canary Islands");
+      } else if(monthVal==="december") {
+                $('#result1').append("Santiago, Chile");
+                $('#result2').append("Siem Reap, Cambodia");
+                $('#result3').append("Monteverde, Costa Rica");
+                $('#result4').append("Queenstown, New Zealand");
+                $('#result5').append("Cape Town, South Africa");
+      }
       $('.btn-success').on('click', (function(){
             $('#collapseTwo').collapse('hide');
             $('#collapseThree').collapse('show');
