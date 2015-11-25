@@ -480,16 +480,63 @@ $('.btn-info').on('click', (function() {
       console.log(monthVal);
       console.log((typeof monthVal === 'string'))
       console.log(monthVal === "january")
+      //then i did some IF statements because I couldn't get my loops to work.. but Eventually there will be loops, and THEY WILL BE AWESOME
       if (monthVal==="january"){
         console.log('INSIDE THE IF STATEMENT ABOUT TO ADD LOCATIONS')
-        $('#result1').append("Daintree, Australia");
+        $('#result1').append("Phuket, Thailand");
         $('#result2').append("Azores, Islands");
         $('#result3').append("Canary, Islands");
         $('#result4').append("Cape Town, Africa");
         $('#result5').append("Siem Riep, Cambodia");
       } else if(monthVal==="february") {
-        console.log("nothing");
-      }
+        $('#result1').append("Abu Dhabi, U.A.E.");
+        $('#result2').append("Eastern Puerto Rico");
+        $('#result3').append("Daintree, Australia");
+        $('#result4').append("Isla Mujeres, Mexico");
+        $('#result5').append("Salvador, Brazil");
+      } else if(monthVal==="march") {
+      $('#result1').append("Monteverde, Costa Rica");
+      $('#result2').append("Philipsburg, Sint Maarten");
+      $('#result3').append("Maldives");
+      $('#result4').append("Queenstown, New Zealand");
+      $('#result5').append("Cape Town, South Africa");
+      } else if(monthVal==="april") {
+        $('#result1').append("Barcelona, Spain");
+        $('#result2').append("Lisbon, Portugal");
+        $('#result3').append("Brisbane, Australia");
+        $('#result4').append("Grand Canyon, U.S.A.");
+        $('#result5').append("Cusco, Peru");
+      } else if(monthVal==="may") {
+          $('#result1').append("Amsterdam, The Netherlands");
+          $('#result2').append("Cinque Terre, Italy");
+          $('#result3').append("Marrakech, Morocco");
+          $('#result4').append("Kotor, Montenegro");
+          $('#result5').append("Daintree, Australia");
+      } else if(monthVal==="june") {
+          $('#result1').append("Reykjavik, Iceland");
+          $('#result2').append("Vancouver, Canada");
+          $('#result3').append("Munich, Germany");
+          $('#result4').append("Brussels, Belgium");
+          $('#result5').append("Colmar, France");
+      } else if(monthVal==="july") {
+          $('#result1').append("York, England");
+          $('#result2').append("Plymouth, England");
+          $('#result3').append("Valencia, Spain");
+          $('#result4').append("Vienna, Austria");
+          $('#result5').append("Dubrovnik, Croatia");
+      } else if(monthVal==="august") {
+          $('#result1').append("Bergen, Norway");
+          $('#result2').append("Amsterdam, The Netherlands");
+          $('#result3').append("Edinburgh, Scotland");
+          $('#result4').append("Prague, Czech Republic");
+          $('#result5').append("Zermatt, Switzerland");
+      } else if(monthVal==="september") {
+            $('#result1').append("Marseille, France");
+            $('#result2').append("Budapest, Hungary");
+            $('#result3').append("Goreme, Turkey");
+            $('#result4').append("Prague, Czech Republic");
+            $('#result5').append("Zermatt, Switzerland");
+          }
       $('.btn-success').on('click', (function(){
             $('#collapseTwo').collapse('hide');
             $('#collapseThree').collapse('show');
