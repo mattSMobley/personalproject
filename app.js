@@ -13,7 +13,6 @@ $('.btn-info').on('click', (function() {
       $('#collapseTwo').collapse('show');
 }));
 /*
-
 //click submit button gathers results from previous selections and appends them to the 3rd collapsible pane
 /*
 $('.btn-success').on('click', (function(){
@@ -27,7 +26,13 @@ $('.btn-success').on('click', (function(){
 */
 
 
-
+// var beach;
+// var desert;
+// var city;
+// var arts;
+// var sea;
+// var mountains;
+// var rainforest;
 
 var destinations = [
 {name: "York, England",
@@ -448,7 +453,7 @@ var destinations = [
   beach: false,
   rainforest: false,
   mountains: false,
-  month: ["december","january"]
+  month: ["january","december"]
 },
 {name: "Marrakech, Morocco",
   desert: true,
@@ -468,7 +473,7 @@ var destinations = [
   beach: true,
   rainforest: false,
   mountains: true,
-  month: ["december","january","february","march","april"]
+  month: ["january","february","march","april","december"]
 }];
 
 $('.btn-info').on('click', (function() {
@@ -478,94 +483,154 @@ $('.btn-info').on('click', (function() {
       $('#collapseOne').collapse('hide');
       $('#collapseTwo').collapse('show');
       console.log(monthVal);
-      console.log((typeof monthVal === 'string'))
-      console.log(monthVal === "january")
-      //then i did some IF statements because I couldn't get my loops to work.. but Eventually there will be loops, and THEY WILL BE AWESOME
-      if (monthVal==="january"){
-        console.log('INSIDE THE IF STATEMENT ABOUT TO ADD LOCATIONS')
-        $('#result1').append("Phuket, Thailand");
-        $('#result2').append("Azores Islands");
-        $('#result3').append("Canary Islands");
-        $('#result4').append("Cape Town, Africa");
-        $('#result5').append("Siem Riep, Cambodia");
-      } else if(monthVal==="february") {
-        $('#result1').append("Abu Dhabi, U.A.E.");
-        $('#result2').append("Eastern Puerto Rico");
-        $('#result3').append("Daintree, Australia");
-        $('#result4').append("Isla Mujeres, Mexico");
-        $('#result5').append("Salvador, Brazil");
-      } else if(monthVal==="march") {
-      $('#result1').append("Monteverde, Costa Rica");
-      $('#result2').append("Philipsburg, Sint Maarten");
-      $('#result3').append("Maldives");
-      $('#result4').append("Queenstown, New Zealand");
-      $('#result5').append("Cape Town, South Africa");
-      } else if(monthVal==="april") {
-        $('#result1').append("Barcelona, Spain");
-        $('#result2').append("Lisbon, Portugal");
-        $('#result3').append("Brisbane, Australia");
-        $('#result4').append("Grand Canyon, U.S.A.");
-        $('#result5').append("Cusco, Peru");
-      } else if(monthVal==="may") {
-          $('#result1').append("Amsterdam, The Netherlands");
-          $('#result2').append("Cinque Terre, Italy");
-          $('#result3').append("Marrakech, Morocco");
-          $('#result4').append("Kotor, Montenegro");
-          $('#result5').append("Daintree, Australia");
-      } else if(monthVal==="june") {
-          $('#result1').append("Reykjavik, Iceland");
-          $('#result2').append("Vancouver, Canada");
-          $('#result3').append("Munich, Germany");
-          $('#result4').append("Brussels, Belgium");
-          $('#result5').append("Colmar, France");
-      } else if(monthVal==="july") {
-          $('#result1').append("York, England");
-          $('#result2').append("Plymouth, England");
-          $('#result3').append("Valencia, Spain");
-          $('#result4').append("Vienna, Austria");
-          $('#result5').append("Dubrovnik, Croatia");
-      } else if(monthVal==="august") {
-          $('#result1').append("Bergen, Norway");
-          $('#result2').append("Amsterdam, The Netherlands");
-          $('#result3').append("Edinburgh, Scotland");
-          $('#result4').append("Prague, Czech Republic");
-          $('#result5').append("Zermatt, Switzerland");
-      } else if(monthVal==="september") {
-            $('#result1').append("Marseille, France");
-            $('#result2').append("Budapest, Hungary");
-            $('#result3').append("Goreme, Turkey");
-            $('#result4').append("Prague, Czech Republic");
-            $('#result5').append("Zermatt, Switzerland");
-      } else if(monthVal==="october") {
-                $('#result1').append("Hanoi, Vietnam");
-                $('#result2').append("Kyoto, Japan");
-                $('#result3').append("Grand Canyon, U.S.A.");
-                $('#result4').append("Marrakech, Morocco");
-                $('#result5').append("Salvador, Brazil");
-      } else if(monthVal==="november") {
-            $('#result1').append("Azores Islands");
-            $('#result2').append("Isla Mujeres, Mexico");
-            $('#result3').append("Philipsburg, Sint Maarten");
-            $('#result4').append("Phuket, Thailand");
-            $('#result5').append("Canary Islands");
-      } else if(monthVal==="december") {
-                $('#result1').append("Santiago, Chile");
-                $('#result2').append("Siem Reap, Cambodia");
-                $('#result3').append("Monteverde, Costa Rica");
-                $('#result4').append("Queenstown, New Zealand");
-                $('#result5').append("Cape Town, South Africa");
-      }
+      return monthVal;
+    }));
+
+
+      $('#beach').on('click', (function(){
+          var choice = 'beach';
+          var monthVal = 'january';
+          $.each(destinations, function(index, destination){
+            if(destination.beach===true&&destination.month[0]==='january')
+            {
+              $('#results').append('<h3>' + destination.name + '</h3>' + '<br>');
+            }
+          });
+          console.log(choice);
+      }));
+
+      $('#sea').on('click', (function(){
+          var choice = 'sea';
+          var monthVal = 'january';
+          $.each(destinations, function(index, destination){
+            if(destination.sea===true&&destination.month[0]==='january')
+            {
+              $('#results').append('<h3>' + destination.name + '</h3>' + '<br>');
+            }
+          });
+          console.log(choice);
+      }));
+
+      $('#rainforest').on('click', (function(){
+          var choice = 'rainforest';
+          var monthVal = 'january';
+          $.each(destinations, function(index, destination){
+            if(destination.rainforest===true&&destination.month[0]==='january')
+            {
+              $('#results').append('<h3>' + destination.name + '</h3>' + '<br>');
+            }
+          });
+          console.log(choice);
+      }));
+
+      $('#desert').on('click', (function(){
+          var choice = 'desert';
+          var monthVal = 'january';
+          $.each(destinations, function(index, destination){
+            if(destination.desert===true&&destination.month[0]==='january')
+            {
+              $('#results').append('<h3>' + destination.name + '</h3>' + '<br>');
+            }
+          });
+          console.log(choice);
+      }));
+
+      $('#city').on('click', (function(){
+          var choice = 'city';
+          var monthVal = 'january';
+          $.each(destinations, function(index, destination){
+            if(destination.city===true&&destination.month[0]==='january')
+            {
+              $('#results').append('<h3>' + destination.name + '</h3>' + '<br>');
+            }
+          });
+          console.log(choice);
+      }));
+
+      $('#mountains').on('click', (function(){
+          var choice = 'mountains';
+          var monthVal = 'january';
+          $.each(destinations, function(index, destination){
+            if(destination.mountains===true&&destination.month[0]==='january')
+            {
+              $('#results').append('<h3>' + destination.name + '</h3>' + '<br>');
+            }
+          });
+          console.log(choice);
+      }));
+
+
       $('.btn-success').on('click', (function(){
             $('#collapseTwo').collapse('hide');
             $('#collapseThree').collapse('show');
-
       }));
+
+            // if (choice==='beach'&&monthVal==='january')
+            // {
+            //   $('#result1').append("Phuket, Thailand");
+            //   $('#result2').append("Maldives");
+            //   $('#result3').append("Eastern Puerto Rico");
+            //   $('#result4').append("Isla Mujeres, Mexico");
+            //   $('#result5').append("Salvador, Brazil");
+            // }else if (choice==='desert'&&monthVal==='january')
+            // {
+            //   $('#result1').append("Abu Dhabi, U.A.E.");
+            //   $('#result2').append("N/A");
+            //   $('#result3').append("N/A");
+            //   $('#result4').append("N/A");
+            //   $('#result5').append("N/A");
+            // }else if (choice==='sea'&&monthVal==='january')
+            // {
+            //   $('#result1').append("Queenstown, New Zealand");
+            //   $('#result2').append("N/A");
+            //   $('#result3').append("N/A");
+            //   $('#result4').append("N/A");
+            //   $('#result5').append("N/A");
+            // } else if (choice==='mountains'&&monthVal==='january')
+            // {
+            //   $('#result1').append("Santiago, Chile");
+            //   $('#result2').append("Queenstown, New Zealand");
+            //   $('#result3').append("Phuket, Thailand");
+            //   $('#result4').append("Cape Town, South Africa");
+            //   $('#result5').append("N/A");
+            // } else if (choice==='city'&&monthVal==='january')
+            // {
+            //   $('#result1').append("Santiago, Chile");
+            //   $('#result2').append("Salvador, Brazil");
+            //   $('#result3').append("Abu Dhabi, U.A.E.");
+            //   $('#result4').append("Cape Town, South Africa");
+            //   $('#result5').append("N/A");
+            // } else if (choice==='arts'&&monthVal==='january')
+            // {
+            //   $('#result1').append("Eastern Puerto Rico");
+            //   $('#result2').append("Salvador, Brazil");
+            //   $('#result3').append("Siem Reap, Cambodia");
+            //   $('#result4').append("Cape Town, South Africa");
+            //   $('#result5').append("N/A");
+            // } else if (choice==='rainforest'&&monthVal==='january')
+            // {
+            //   $('#result1').append("Eastern Puerto Rico");
+            //   $('#result2').append("Phuket, Thailand");
+            //   $('#result3').append("Monteverde, Costa Rica");
+            //   $('#result4').append("N/A");
+            //   $('#result5').append("N/A");
+            // }
+
+            //if ()
+            // destinations.forEach(function (arrayItem)
+            // {
+            //   var x=arrayItem.prop1 + 2;
+            //   return x;
+            //   for (var j=0; j<destinations.length; j++){
+            //     if (destinations[j]===)
+            //   }
+            // });
+
 
 //stores the month when clicked on
 /* $('btn-primary').on('click', (function(){
       var typeVal = this.id;
       console.log(typeVal);
-
 })) */
 
 
@@ -592,8 +657,6 @@ $('.btn-success').on('click', (function(){
               } else {
                 console.log("none");
               }
-
           };
-
 */
-}));
+// }));
