@@ -10,7 +10,7 @@ var choice;
 var obj;
 
 
-$.ajax('/destinations.json', {
+$.ajax('https://traveldestinationeng.firebaseapp.com/destinations.json', {
   success: function(data, status){
     console.log(data);
 
@@ -57,6 +57,10 @@ $('.btn-info').on('click', (function() {
           console.log(choice);
       }));
 
+      $('#arts').on('click', (function(){
+          choice = 'arts';
+          console.log(choice);
+      }));
 
       $('.btn-success').on('click', (function(){
             $('#collapseTwo').collapse('hide');
@@ -71,7 +75,7 @@ $('.btn-info').on('click', (function() {
                 }
               }
 
- 
+
       }));
     }
   })

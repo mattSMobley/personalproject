@@ -1,0 +1,21 @@
+h1 {
+  font-family: "Kaushan Script", script;
+  font-weight: 400;
+}
+h3 {
+  font-family: "Gill Sans";
+}
+li {
+  padding: .2em 3em .2em 3em;
+  border-radius: 33%;
+}
+body {
+  background-image: url("http://www.ihdimages.com/wp-content/uploads/2014/11/vintage_travel_cool_wallpapers.jpg");
+}
+button.btn.btn-info {
+  width: 120px;
+  height: 55px;
+}
+#results {
+  margin-left: 1em;
+}
