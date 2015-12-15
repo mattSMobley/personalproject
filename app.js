@@ -5,12 +5,13 @@ $(document).ready(function() {
   }));
 });
 
+//******************THIS ONE IS RIGHT!!!!***********
 var monthVal;
 var choice;
 var obj;
 
 
-$.ajax('https://traveldestinationeng.firebaseapp.com/destinations.json', {
+$.ajax('destinations.json', {
   success: function(data, status){
     console.log(data);
 
@@ -71,7 +72,7 @@ $('.btn-info').on('click', (function() {
               obj = data[i];
                 if (obj[monthVal]===true && obj[choice]===true){
                   console.log(obj.name);
-                  $('#results').append('<h3>' + obj.name + '</h3>' + '<br>')
+                  $('#results').append('<h3>' + obj.name + '</h3>' + '<br>' + '<p>' + obj.about + '</p>' +'<br>')
                 }
               }
 
