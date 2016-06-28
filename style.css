@@ -1,20 +1,38 @@
 h1 {
   font-family: "Kaushan Script", script;
   font-weight: 400;
+  color: black;
+}
+p {
+  color: black;
 }
 h3 {
   font-family: "Gill Sans";
+  color: black;
+  font-size: 1.5em;
+  text-align: center;
 }
 li {
   padding: .2em 3em .2em 3em;
   border-radius: 33%;
 }
 body {
-  background-image: url("http://www.ihdimages.com/wp-content/uploads/2014/11/vintage_travel_cool_wallpapers.jpg");
+  background-image: url("https://matterri.files.wordpress.com/2016/06/paradise.jpg");
+  background-size: cover;
+}
+.container {
+  opacity: .4;
+  transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+.container:hover {
+  opacity: .9;
 }
 button.btn.btn-info {
-  width: 120px;
-  height: 55px;
+  width: 8em;
+  height: 4em;
+  font-weight: 200;
 }
 #results {
   padding-left: .5em;
@@ -26,6 +44,12 @@ button.btn.btn-info {
   border-radius: 10%;
   font-family: "Gill Sans";
 }
-.resultPackage {
-  border: 0px 0px 1px 0px solid gray;
+
+@media (max-width: 500px) {
+  h1 {
+
+  }
+  h3 {
+
+  }
 }
