@@ -104,7 +104,12 @@ var addCity = function(){
 };
 var notFound = function(){
   $('#results').append('<h3>' + 'Whoops..' + '</h3>' + '<br>' + '<p>' + 'Looks like there is no match for these specific choices right now. However, I do update the database frequently' + '</p>' +'<br>')
-}
+};
+var addPicture = function(){
+  $('#results').append('<div id="wapiblock"></div>')
+};
+
+
 
     var choiceLength = choices.length;
     for (var i=0; i<data.length; i++){
@@ -112,25 +117,77 @@ var notFound = function(){
       switch (choiceLength) {
         case 1: if (data[i].months.indexOf(monthVal) >=0 && data[i].types.indexOf(choices[0]) >=0){
           addCity();
-        }
+          $('#results').append('<div id=' + i + '></div>' + '<br><br>');
+        var myRequest = {
+          'tag': data[i].name,
+        };
+        var myOptions = {
+          'width': 350,
+          'height': 220,
+          'columns': 1,
+          'croppedPhotos': true
+        };
+        var wapiblock = document.getElementById(i);
+        var widget = new panoramio.PhotoListWidget(wapiblock, myRequest, myOptions);
+        widget.setPosition(0);
+        };
           break;
 
         case 2: if (data[i].months.indexOf(monthVal) >=0 && data[i].types.indexOf(choices[0]) >=0 && data[i].types.indexOf(choices[1]) >=0){
           addCity();
+          $('#results').append('<div id=' + i + '></div>' + '<br><br>');
+        var myRequest = {
+          'tag': data[i].name,
+        };
+        var myOptions = {
+          'width': 350,
+          'height': 220,
+          'columns': 1,
+          'croppedPhotos': true
+        };
+        var wapiblock = document.getElementById(i);
+        var widget = new panoramio.PhotoListWidget(wapiblock, myRequest, myOptions);
+        widget.setPosition(0);
         }
           break;
 
         case 3: if (data[i].months.indexOf(monthVal) >=0 && data[i].types.indexOf(choices[0]) >=0 && data[i].types.indexOf(choices[1]) >=0 && data[i].types.indexOf(choices[2]) >=0){
           addCity();
+          $('#results').append('<div id=' + i + '></div>' + '<br><br>');
+        var myRequest = {
+          'tag': data[i].name,
+        };
+        var myOptions = {
+          'width': 350,
+          'height': 220,
+          'columns': 1,
+          'croppedPhotos': true
+        };
+        var wapiblock = document.getElementById(i);
+        var widget = new panoramio.PhotoListWidget(wapiblock, myRequest, myOptions);
+        widget.setPosition(0);
         }
           break;
 
         case 4:if (data[i].months.indexOf(monthVal) >=0 && data[i].types.indexOf(choices[0]) >=0 && data[i].types.indexOf(choices[1]) >=0 && data[i].types.indexOf(choices[2]) >=0 && data[i].types.indexOf(choices[3]) >=0){
           addCity();
+          $('#results').append('<div id=' + i + '></div>' + '<br><br>');
+        var myRequest = {
+          'tag': data[i].name,
+        };
+        var myOptions = {
+          'width': 350,
+          'height': 220,
+          'columns': 1,
+          'croppedPhotos': true
+        };
+        var wapiblock = document.getElementById(i);
+        var widget = new panoramio.PhotoListWidget(wapiblock, myRequest, myOptions);
+        widget.setPosition(0);
         }
           break;
 
-        default: $('#results').append('<h3>' + 'SORRY' + '</h3>' + '<br>' + '<p>' + 'Try narrowing your search to 3 or fewer types of experiences' + '</p>' +'<br>')
+        default: $('#results').append('<h3>' + 'SORRY' + '</h3>' + '<br>' + '<p>' + 'Try narrowing your search to 4 or fewer types of experiences' + '</p>' +'<br>')
         }
       }
 
