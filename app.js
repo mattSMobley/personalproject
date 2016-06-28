@@ -117,7 +117,7 @@ var addPicture = function(){
       switch (choiceLength) {
         case 1: if (data[i].months.indexOf(monthVal) >=0 && data[i].types.indexOf(choices[0]) >=0){
           addCity();
-          $('#results').append('<div id=' + i + '></div>' + '<br><br>');
+          $('#results').append('<div id=' + i + '></div>' + '<br><br><hr><br>');
         var myRequest = {
           'tag': data[i].name,
         };
@@ -135,7 +135,7 @@ var addPicture = function(){
 
         case 2: if (data[i].months.indexOf(monthVal) >=0 && data[i].types.indexOf(choices[0]) >=0 && data[i].types.indexOf(choices[1]) >=0){
           addCity();
-          $('#results').append('<div id=' + i + '></div>' + '<br><br>');
+          $('#results').append('<div id=' + i + '></div>' + '<br><br><hr><br>');
         var myRequest = {
           'tag': data[i].name,
         };
@@ -153,7 +153,7 @@ var addPicture = function(){
 
         case 3: if (data[i].months.indexOf(monthVal) >=0 && data[i].types.indexOf(choices[0]) >=0 && data[i].types.indexOf(choices[1]) >=0 && data[i].types.indexOf(choices[2]) >=0){
           addCity();
-          $('#results').append('<div id=' + i + '></div>' + '<br><br>');
+          $('#results').append('<div id=' + i + '></div>' + '<br><br><hr><br>');
         var myRequest = {
           'tag': data[i].name,
         };
@@ -171,7 +171,7 @@ var addPicture = function(){
 
         case 4:if (data[i].months.indexOf(monthVal) >=0 && data[i].types.indexOf(choices[0]) >=0 && data[i].types.indexOf(choices[1]) >=0 && data[i].types.indexOf(choices[2]) >=0 && data[i].types.indexOf(choices[3]) >=0){
           addCity();
-          $('#results').append('<div id=' + i + '></div>' + '<br><br>');
+          $('#results').append('<div id=' + i + '></div>' + '<br><br><hr><br>');
         var myRequest = {
           'tag': data[i].name,
         };

@@ -17,11 +17,15 @@ button.btn.btn-info {
   height: 55px;
 }
 #results {
-  margin-left: 1em;
+  padding-left: .5em;
+  padding-right: .5em;
 }
 #restart {
   background-color: #00577C;
   color: white;
   border-radius: 10%;
   font-family: "Gill Sans";
+}
+.resultPackage {
+  border: 0px 0px 1px 0px solid gray;
 }
