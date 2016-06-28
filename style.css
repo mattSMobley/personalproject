@@ -19,3 +19,9 @@ button.btn.btn-info {
 #results {
   margin-left: 1em;
 }
+#restart {
+  background-color: #00577C;
+  color: white;
+  border-radius: 10%;
+  font-family: "Gill Sans";
+}

@@ -39,7 +39,7 @@ var destinationsNEW = [
   months: ['april','may','june','july','august','september','october'],
   about: "Spread across steep hillsides that overlook the Rio Tejo, Lisbon has captivated visitors for centuries. Windswept vistas reveal the city in all its beauty: Roman and Moorish ruins, white-domed cathedrals, grand plazas lined with sun-drenched cafes. Just outside Lisbon, there’s more – enchanting woodlands, gorgeous beaches and seaside villages – all ripe for discovery.."
 },
-{name: "Eastern Puerto Rico",
+{name: "Puerto Rico",
   types: ['arts','beach','rainforest'],
   months: ['january','february','march','april','december'],
   about: "With endless sand, swashbuckling history and wildly diverse tropical terrain, locals fittingly call this sun-washed medley of Spanish and American influences the 'Island of Enchantment. The eastern part of Puerto Rico contains lush rainforests, as well as some of the best beaches in Puerto Rico. Head to the island of Culembra for beauty and seclusion, or travel to Vieques to view a once in a lifetime sight: a bioluminescent bay."
@@ -119,7 +119,7 @@ var destinationsNEW = [
   months: ['july','august'],
   about: "Surrounded by seven hills and seven fjords, Bergen is an utterly beguiling city. The beautiful Unesco World Heritage–listed Bryggen is its centrepiece, and nature, be that mountains, fjords or sea, is never far away. But you'll also discover a dynamic cultural life, one a city 10 times its size would be proud of. Dive into its booming local food and coffee scene, fascinating art collections and excellent music venues."
 },
-{name: "Philipsburg, Sint Maarten",
+{name: "St. Maarten",
   types: ['beach'],
   months: ['january','february','march','april','november','december'],
   about: "Philipsburg is the capital of Dutch St. Maarten, a Caribbean island divided into Dutch and French (Saint Martin) sides. Bargain seekers flock to the duty-free and sales-tax-free stores of Philipsburg's mile-long commercial district. Visitors also enjoy the city's art galleries, historic forts, casinos and zoo, as well as Great Bay Beach and its boardwalk. Offshore, on the 12 Metre Challenge, guests can work as part of the crew on one of five boats used in the 1987 America's Cup competition."
@@ -209,7 +209,7 @@ var destinationsNEW = [
   months: ['january','december'],
   about: "When the morning light washes over the overgrown temples and ruins of Angkor Wat, a simple Siem Reap sunrise becomes a profound event. The ancient structures are contained within one of the largest religious complexes in the world. The complex and the 12th century Angkor Thom royal city are considered the main reasons to visit Siem Reap. Get a lesson in national history at the Cambodian Cultural Village, and a lesson in bargaining at the Angkor Night Market, a bonanza of shopping stalls, food vendors, and bars."
 },
-{name: "Marrakech, Morocco",
+{name: "Marrakesh, Morocco",
   types: ['desert','arts'],
   months: ['may','june','september','october'],
   about: "The 'Red City' of Marrakesh is a magical place, brimming with markets, gardens, palaces, and mosques. Exploring the intimate courtyards and snaking alleyways of the historic Medina can easily eat up a day. Find inner peace at the serene Jardin Majorelle or take in the beauty of one of the city’s historic mosques (taking note that, unless you are Muslim, you are not allowed to enter)."

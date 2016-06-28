@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
  $('.dropdown').on('click', (function() {
       $('.dropdown-toggle').dropdown();
   }));
@@ -196,3 +196,7 @@ var addPicture = function(){
       }));
     }
   })
+
+  $('#restart').on('click', (function() {
+       location.reload();
+   }));
