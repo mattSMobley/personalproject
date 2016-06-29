@@ -1,7 +1,14 @@
-h1 {
+.title {
   font-family: "Kaushan Script", script;
   font-weight: 400;
   color: black;
+  font-size: 5em;
+}
+.intro {
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+
 }
 p {
   color: black;
@@ -17,14 +24,39 @@ li {
   border-radius: 33%;
 }
 body {
-  background-image: url("https://matterri.files.wordpress.com/2016/06/paradise.jpg");
+  background-image: url("img/background.jpg");
   background-size: cover;
 }
+.backwhite {
+  background-color: #ffffff;
+  border-radius: 5%;
+  padding: 1em 0em 2em 0em;
+  vertical-align: middle;
+}
+hr{
+    height: 30px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
 .container {
-  opacity: .4;
+  padding: 2em 2em 2em 2em;
+  opacity: .5;
   transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
+  width: 80%;
 }
 .container:hover {
   opacity: .9;
@@ -33,6 +65,13 @@ button.btn.btn-info {
   width: 8em;
   height: 4em;
   font-weight: 200;
+}
+.thumbs {
+  height:180px;
+  width:245px
+}
+.spacer {
+  padding-top: 1em;
 }
 #results {
   padding-left: .5em;
@@ -45,11 +84,8 @@ button.btn.btn-info {
   font-family: "Gill Sans";
 }
 
-@media (max-width: 500px) {
-  h1 {
-
-  }
-  h3 {
-
+@media (max-width: 993px) {
+  .container {
+    padding: 0em;
   }
 }

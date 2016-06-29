@@ -19,115 +19,89 @@
   <body>
     <center>
     <br><br><br><br>
-    <div class="container" style="padding: 2em 2em 2em 2em" >
-      <div class="col-sm-12" class="backwhite" style="background-color: #ffffff; border-radius: 5%; padding: 0em 0em 5em 0em; vertical-align: middle;">
+    <div class="container">
+      <div class="col-md-12 backwhite">
       <div class="row" >
-      <div class="col-sm-1"> </div>
-      <div class="col-sm-10" >
+      <div class="col-md-1"> </div>
+      <div class="col-md-10">
         <div class="row">
-          <h1 class="text-center" style="font-size: 5em" class="img-responsive">   Travel Destination Engine </h1>
+          <h1 class="title"> Travel Destination Engine </h1>
         </div>
 
           <div class="row">
-            <h3 class="img-responsive"> Using a database of intriguing worldwide travel destinations, the app suggests several options based on your preferences. You won't find places like Paris or London here; This engine is designed to inspire and share new ideas with you!</h3>
+            <h3 class="intro"> Using a database of intriguing worldwide travel destinations, the app suggests several options based on your preferences. You won't find places like Paris or London here; This engine is designed to inspire and share new ideas with you!</h3>
           </div>
-        <!--EXPLAIN APP BRIEFLY-->
+
 
         </div>
-      <div class="col-sm-1"> </div>
+      <div class="col-md-1"> </div>
       </div>
-      <div class="row" style="padding: 2em">
-      </div>
-      <div class="col-sm-1"> </div>
-      <div class="col-sm-10">
-        <div class="row">
+      <!--PICK THE MONTH-->
+
+      <div class="col-md-1"> </div>
+      <div class="col-md-10">
           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
               <h4 class="panel-title">
                 <a class="collapsed accordion-toggle" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                  <h3 class="text-center" style="font-size: 1.5em" class="img-responsive">
-                  I want to travel in this month:</h3>
+                  <h3 id="monthSelection">I want to travel in the following month:</h3>
                 </a>
               </h4>
             </div>
+
             <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
               <div class="panel-body">
-                <div class="col-sm-12">
+                <div class="col-md-12">
 
                     <div class="btn-group" data-toggle="buttons">
-
-                      <div class="col-sm-1">
+                      <div class="row">
+                      <div class="col-md-3">
                         <button type="button" class="btn btn-info" value="january"> <h4>january</h4> </button> </div>
-                      <div class="col-sm-1"></div>
-                      <div class="col-sm-1"></div>
-                      <div class="col-sm-1">
+                      <div class="col-md-3">
                         <button type="button" class="btn btn-info" value="february"> <h4>february</h4> </button> </div>
-                      <div class="col-sm-1"></div>
-                      <div class="col-sm-1"></div>
-                      <div class="col-sm-1">
+                      <div class="col-md-3">
                         <button type="button" class="btn btn-info" value="march"> <h4>march</h4> </button> </div>
-                      <div class="col-sm-1"></div>
-                      <div class="col-sm-1"></div>
-                      <div class="col-sm-1">
+                      <div class="col-md-3">
                         <button type="button" class="btn btn-info" value="april"> <h4>april</h4> </button> </div>
-                      <div class="col-sm-1"></div>
                       </div>
-                      <div class="row" style="padding: .5em"></div>
-                    <div class="btn-group" data-toggle="buttons">
+                      <div class="spacer"></div>
 
-                        <div class="col-sm-1">
+                      <div class="row">
+                        <div class="col-md-3">
                           <button type="button" class="btn btn-info" value="may"> <h4>may</h4> </button></div>
-                        <div class="col-sm-1"></div>
-                        <div class="col-sm-1"></div>
-                        <div class="col-sm-1">
+                        <div class="col-md-3">
                         <button type="button" class="btn btn-info" value="june"> <h4>june</h4> </button> </div>
-                        <div class="col-sm-1"></div>
-                        <div class="col-sm-1"></div>
-                        <div class="col-sm-1">
+                        <div class="col-md-3">
                           <button type="button" class="btn btn-info" value="july"> <h4>july</h4> </button></div>
-                        <div class="col-sm-1"></div>
-                        <div class="col-sm-1"></div>
-                        <div class="col-sm-1">
+                        <div class="col-md-3">
                           <button type="button" class="btn btn-info" value="august"> <h4>august</h4> </button> </div>
-                        <div class="col-sm-1"></div>
-                        <div class="col-sm-1"></div>
-                        </div>
-                        <div class="row" style="padding: .5em"></div>
-                        <div class="btn-group" data-toggle="buttons">
+                      </div>
+                        <div class="spacer"></div>
 
-                          <div class="col-sm-1">
-                          <button type="button" class="btn btn-info" value="september"> <h4>september</h4> </button></div>
-                          <div class="col-sm-1"></div>
-                          <div class="col-sm-1"></div>
-                          <div class="col-sm-1">
-                          <button type="button" class="btn btn-info" value="october"> <h4>october</h4> </button> </div>
-                          <div class="col-sm-1"></div>
-                          <div class="col-sm-1"></div>
-                            <div class="col-sm-1">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <button type="button" class="btn btn-info" value="september"> <h4>september</h4> </button></div>
+                          <div class="col-md-3">
+                            <button type="button" class="btn btn-info" value="october"> <h4>october</h4> </button> </div>
+                          <div class="col-md-3">
                             <button type="button" class="btn btn-info" value="november"> <h4>november</h4> </button></div>
-                          <div class="col-sm-1"></div>
-                          <div class="col-sm-1"></div>
-                          <div class="col-sm-1">
+                          <div class="col-md-3">
                             <button type="button" class="btn btn-info" value="december"> <h4>december</h4> </button> </div>
-                          <div class="col-sm-1"></div>
-                          <div class="col-sm-1"></div>
-                          <div class="col-sm-1"></div>
+                        </div>
                           </div>
                       </div>
                     </div>
                   </div>
                 </div>
 
+
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingTwo">
                   <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                       <div class="row">
-                        <h3 class="text-center" style="font-size: 1.5em" class="img-responsive">
-                          I want this combination of experiences: </h3>
-                          <h3 class="text-center" style="font-size: 1em" class="img-responsive">
-                          </h3>
+                        <h3> I want this combination of experiences: </h3>
                       </div>
                     </a>
                   </h4>
@@ -136,46 +110,47 @@
                   <div class="panel-body">
 
                     <div class="btn-group" data-toggle="buttons">
-                      <div class="col-sm-4">
+                      <div class="col-md-4">
                       <label class="btn btn-primary" id="beach">
-                        <input type="checkbox" autocomplete="off" id="beach"> <img  src="img/beach.jpg" style="height:180px; width:245px" class="img-responsive" id="beach">
+                        <input type="checkbox" autocomplete="off" id="beach"> <img  src="img/beach.jpg" class="thumbs img-responsive" id="beach">
                       </label></div>
-                      <div class="col-sm-4">
+                      <div class="col-md-4">
                       <label class="btn btn-primary">
-                        <input type="checkbox" autocomplete="off"> <img  src="img/sea.JPG" style="height:180px; width:245px" class="img-responsive" id="sea">
+                        <input type="checkbox" autocomplete="off"> <img  src="img/sea.JPG" class="thumbs img-responsive" id="sea">
                       </label> </div>
-                      <div class="col-sm-4">
+                      <div class="col-md-4">
                       <label class="btn btn-primary">
-                        <input type="checkbox" autocomplete="off"><img src="img/rainforest.jpg" style="height:180px; width:245px" class="img-responsive" id="rainforest">
+                        <input type="checkbox" autocomplete="off"><img src="img/rainforest.jpg" class="thumbs img-responsive" id="rainforest">
                       </label></div>
                     </div>
-                    <div class="row" style="padding: 1em"> </div>
+                    <div class="spacer"> </div>
                     <div class="btn-group" data-toggle="buttons">
-                      <div class="col-sm-4">
+                      <div class="col-md-4">
                       <label class="btn btn-primary">
-                        <input type="checkbox" autocomplete="off"> <img  src="img/desert.JPG" style="height:180px; width:245px" class="img-responsive" id="desert">
+                        <input type="checkbox" autocomplete="off"> <img  src="img/desert.JPG" class="thumbs img-responsive" id="desert">
                       </label></div>
-                      <div class="col-sm-4">
+                      <div class="col-md-4">
                       <label class="btn btn-primary">
-                        <input type="checkbox" autocomplete="off"> <img  src="img/city.jpg" style="height:180px; width:245px" class="img-responsive" id="city">
+                        <input type="checkbox" autocomplete="off"> <img  src="img/city.jpg" class="thumbs img-responsive" id="city">
                       </label></div>
-                      <div class="col-sm-4">
+                      <div class="col-md-4">
                       <label class="btn btn-primary">
-                        <input type="checkbox" autocomplete="off"><img src="img/arts.jpg" style="height:180px; width:245px" class="img-responsive" id="arts">
+                        <input type="checkbox" autocomplete="off"><img src="img/arts.jpg" class="thumbs img-responsive" id="arts">
                       </label></div>
                     </div>
-                    <div class="row" style="padding: 1em"> </div>
-                    <div class="col-sm-4">
+                    <div class="spacer"> </div>
+                    <div class="col-md-4">
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                       <label class="btn btn-primary">
-                        <input type="checkbox" autocomplete="off"><img src="img/mountains.jpg" style="height:180px; width:245px" class="img-responsive" id="mountains">
+                        <input type="checkbox" autocomplete="off"><img src="img/mountains.jpg" class="thumbs img-responsive" id="mountains">
                       </label></div>
-                    <div class="col-sm-4">
-                      <div class="col-sm-4 col-sm-offset-4">
+                    <div class="col-md-4">
+                      <div class="col-md-4 col-sm-offset-4">
                         <div class="row" style="padding:5em 0em 0em 0em">
                       <input class="btn btn-success" type="submit" value="Submit">
                       </div>
+                    </div>
                     </div>
 
                   </div>
@@ -202,11 +177,12 @@
                     <button type="button" name="button" id="restart">restart</button>
                   </div>
                 </div>
-              </div>
+
             </div>
         </div>
-      </div>
-      <div class="col-sm-1"></div>
+
+      <div class="col-md-1"></div>
+
     </div>
   </div>
 

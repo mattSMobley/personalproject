@@ -16,6 +16,7 @@ $.ajax('destinationsNEW.json', {
 $('.btn-info').on('click', (function() {
       monthVal = $(this).val();
       $('#collapseOne').collapse('hide');
+      $('#monthSelection').append('<b><i><h4 style="color: red; text-transform: uppercase;">' + monthVal + '</h4></b></i>' );
       $('#collapseTwo').collapse('show');
       console.log(monthVal);
 
@@ -135,7 +136,7 @@ var addPicture = function(){
 
         case 2: if (data[i].months.indexOf(monthVal) >=0 && data[i].types.indexOf(choices[0]) >=0 && data[i].types.indexOf(choices[1]) >=0){
           addCity();
-          $('#results').append('<div id=' + i + '></div>' + '<br><br><hr><br>');
+          $('#results').append('<div id=' + i + '></div>' + '<br><br><hr>');
         var myRequest = {
           'tag': data[i].name,
         };
@@ -153,7 +154,7 @@ var addPicture = function(){
 
         case 3: if (data[i].months.indexOf(monthVal) >=0 && data[i].types.indexOf(choices[0]) >=0 && data[i].types.indexOf(choices[1]) >=0 && data[i].types.indexOf(choices[2]) >=0){
           addCity();
-          $('#results').append('<div id=' + i + '></div>' + '<br><br><hr><br>');
+          $('#results').append('<div id=' + i + '></div>' + '<br><br><hr>');
         var myRequest = {
           'tag': data[i].name,
         };
@@ -171,7 +172,7 @@ var addPicture = function(){
 
         case 4:if (data[i].months.indexOf(monthVal) >=0 && data[i].types.indexOf(choices[0]) >=0 && data[i].types.indexOf(choices[1]) >=0 && data[i].types.indexOf(choices[2]) >=0 && data[i].types.indexOf(choices[3]) >=0){
           addCity();
-          $('#results').append('<div id=' + i + '></div>' + '<br><br><hr><br>');
+          $('#results').append('<div id=' + i + '></div>' + '<br><br><hr>');
         var myRequest = {
           'tag': data[i].name,
         };
