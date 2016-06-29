@@ -18,11 +18,11 @@ Canggu, Bali
 Bocas del Toro, Panama
 Uyuni, Bolivia
 Namib desert
-The pinnacles, australia
-Moab, Utah
-Manaus, Brazil //rainforest, arts
-Kuching, Malaysia // rainforest, arts, sea, beach
-Las Vegas, Nevada // desert, arts, city
+The pinnacles, Australia // january,february,march,april,october,november,december
+Moab, Utah // may,june,september,october && desert
+Manaus, Brazil // may,june,july,august && rainforest,arts
+Kuching, Malaysia // june,july,august,september && rainforest,arts,sea,beach
+Las Vegas, Nevada // january,february,march,april,november,december && desert,arts,city
 Sharm El Sheik, Egypt //desert, beach
 
 **need city/sea for several diff months
