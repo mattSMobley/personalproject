@@ -95,7 +95,7 @@ $('.btn-info').on('click', (function() {
             if (culture === true){
               choices.push('culture');
             }
-            choices.sort();
+            $('#typeSelection').append('<b><i><h4 style="color: red; text-transform: uppercase;">' + choices.toString() + '</h4></b></i>' );
             console.log(choices);
 
 
