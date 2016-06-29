@@ -1,28 +1,67 @@
+York, England
+Kotor, Montenegro
+Abu Dhabi, U.A.E.
+Plymouth, England
+Amsterdam, The Netherlands
+Barcelona, Spain
+Vienna, Austria
+Lisbon, Portugal
+Puerto Rico
+Daintree, Australia
+Kyoto, Japan
+Isla Mujeres, Mexico
+Reykjavik, Iceland
+Vancouver, Canada
+Salvador, Brazil
+Santiago, Chile
+Monteverde, Costa Rica
+Dubrovnik, Croatia
+Munich, Germany
+Brussels, Belgium
+Brisbane, Australia
+Colmar, France
+Edinburgh, Scotland
+Bergen, Norway
+St. Maarten
+Azores Islands
+Canary Islands
+Grand Canyon
+Maldives
+Queenstown, New Zealand
+Phuket, Thailand
+Cusco, Peru
+Valencia, Spain
+Prague, Czech Republic
+Hanoi, Vietnam
+Zermatt, Switzerland
+Marseille, France
+Cinque Terre, Italy
+Budapest, Hungary
+Copenhagen, Denmark
+Goreme, Turkey
+Siem Reap, Cambodia
+Marrakesh, Morocco
 Istanbul, Turkey
 Valparaiso, Chile
-Fernando de Noronha, Brazil
+Fernando de Noronha
 Buenos Aires, Argentina
 Ubud, Indonesia
-Zimbabwe
-Malawi
+Victoria Falls
 Lord Howe Island
-Tasmania
+Hobart, Tasmania
 Galle, Sri Lanka
 Galapagos Islands
-Andaman Islands India
-Denver Colorado
+Andaman Islands
+Denver, Colorado
 Baja California
 Zanzibar, Tanzania
 Ljubljana, Slovenia
-Canggu, Bali
 Bocas del Toro, Panama
 Uyuni, Bolivia
-Namib desert
-The pinnacles, Australia // january,february,march,april,october,november,december
-Moab, Utah // may,june,september,october && desert
-Manaus, Brazil // may,june,july,august && rainforest,arts
-Kuching, Malaysia // june,july,august,september && rainforest,arts,sea,beach
-Las Vegas, Nevada // january,february,march,april,november,december && desert,arts,city
-Sharm El Sheik, Egypt //desert, beach
-
-**need city/sea for several diff months
+Namib Desert
+Perth, Australia
+Moab, Utah
+Manaus, Brazil
+Kuching, Malaysia
+Las Vegas, Nevada
+Sharm El Sheikh, Egypt
