@@ -101,7 +101,7 @@ $('.btn-info').on('click', (function() {
     //for each object within destinations.json(data)
 
 var addCity = function(){
-  $('#results').append('<h3>' + data[i].name + '</h3>' + '<br>' + '<p>' + data[i].about + '</p>' +'<br>')
+  $('#results').append('<br><h3>' + data[i].name + '</h3>' + '<br>' + '<p>' + data[i].about + '</p>' +'<br>')
 };
 var notFound = function(){
   $('#results').append('<h3>' + 'Whoops..' + '</h3>' + '<br>' + '<p>' + 'Looks like there is no match for these specific choices right now. However, I do update the database frequently' + '</p>' +'<br>')
@@ -118,7 +118,7 @@ var addPicture = function(){
       switch (choiceLength) {
         case 1: if (data[i].months.indexOf(monthVal) >=0 && data[i].types.indexOf(choices[0]) >=0){
           addCity();
-          $('#results').append('<div id=' + i + '></div>' + '<br><br><hr><br>');
+          $('#results').append('<div id=' + i + '></div>' + '<br><br><br><hr>');
         var myRequest = {
           'tag': data[i].name,
         };
@@ -136,7 +136,7 @@ var addPicture = function(){
 
         case 2: if (data[i].months.indexOf(monthVal) >=0 && data[i].types.indexOf(choices[0]) >=0 && data[i].types.indexOf(choices[1]) >=0){
           addCity();
-          $('#results').append('<div id=' + i + '></div>' + '<br><br><hr>');
+          $('#results').append('<div id=' + i + '></div>' + '<br><br><br><hr>');
         var myRequest = {
           'tag': data[i].name,
         };
@@ -154,7 +154,7 @@ var addPicture = function(){
 
         case 3: if (data[i].months.indexOf(monthVal) >=0 && data[i].types.indexOf(choices[0]) >=0 && data[i].types.indexOf(choices[1]) >=0 && data[i].types.indexOf(choices[2]) >=0){
           addCity();
-          $('#results').append('<div id=' + i + '></div>' + '<br><br><hr>');
+          $('#results').append('<div id=' + i + '></div>' + '<br><br><br><hr>');
         var myRequest = {
           'tag': data[i].name,
         };
@@ -172,7 +172,7 @@ var addPicture = function(){
 
         case 4:if (data[i].months.indexOf(monthVal) >=0 && data[i].types.indexOf(choices[0]) >=0 && data[i].types.indexOf(choices[1]) >=0 && data[i].types.indexOf(choices[2]) >=0 && data[i].types.indexOf(choices[3]) >=0){
           addCity();
-          $('#results').append('<div id=' + i + '></div>' + '<br><br><hr>');
+          $('#results').append('<div id=' + i + '></div>' + '<br><br><br><hr>');
         var myRequest = {
           'tag': data[i].name,
         };
