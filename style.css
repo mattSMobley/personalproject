@@ -89,3 +89,9 @@ button.btn.btn-info {
     padding: 0em;
   }
 }
+
+@media (max-width: 593px) {
+  .body {
+    padding-top: 4em;
+  }
+}

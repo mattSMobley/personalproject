@@ -333,6 +333,11 @@ var destinations = [
   types: ['desert','culture','city'],
   months: ['january','february','march','april','november','december'],
   about: "New destination. The info section is under construction."
+}, -  //
+{name: "Ischia, Italy",
+  types: ['beach', 'arts', 'sea'],
+  months: ['april','may','june','july','august','september'],
+  about: "New destination. The info section is under construction."
 },
 {name: "Sharm El Sheikh, Egypt",
   types: ['desert','beach'],
