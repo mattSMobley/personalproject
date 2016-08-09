@@ -20,7 +20,7 @@ h3 {
   text-align: center;
 }
 li {
-  padding: .2em 3em .2em 3em;
+  /*padding: .2em 3em .2em 3em;*/
   border-radius: 33%;
 }
 body {
@@ -28,7 +28,7 @@ body {
   background-size: cover;
 }
 .backwhite {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.9);;
   border-radius: 5%;
   padding: 1em 0em 2em 0em;
   vertical-align: middle;
@@ -51,15 +51,7 @@ hr:before { /* Not really supposed to work, but does */
     border-radius: 20px;
 }
 .container {
-  padding: 2em 2em 2em 2em;
-  opacity: .5;
-  transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
   width: 80%;
-}
-.container:hover {
-  opacity: .9;
 }
 button.btn.btn-info {
   width: 8em;
@@ -84,9 +76,17 @@ button.btn.btn-info {
   font-family: "Gill Sans";
 }
 
+
 @media (max-width: 993px) {
   .container {
     padding: 0em;
+  }
+
+  .col-md-3 {
+    display: inline;
+  }
+  .col-md-4 {
+    display: inline;
   }
 }
 

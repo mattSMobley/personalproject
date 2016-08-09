@@ -1,4 +1,5 @@
 $(document).ready(function () {
+$('#container').fadeIn('slow');
  $('.dropdown').on('click', (function() {
       $('.dropdown-toggle').dropdown();
   }));
