@@ -292,55 +292,55 @@ var destinations = [
 {name: "Ljubljana, Slovenia",
   types: ['architecture','mountains'],
   months: ['april','may','august','september','october'],
-  about: "New destination. The info section is under construction."
+  about: "Slovenia might be the most underrated country in all of Europe."
 },
 {name: "Bocas del Toro, Panama",
   types: ['beach','rainforest'],
   months: ['february','march','april','may','september','october','november'],
-  about: "New destination. The info section is under construction."
+  about: "Colorful and full of Caribbean-style clapboard houses, Bocas del Toro (better known simply as Bocas town) was built by the United Fruit Company in the early 20th century. Today it is a relaxed community of West Indians, Latinos and resident gringos, with a friendly atmosphere that is contagious. It’s an easy place to get stuck into and an even easier one in which to linger."
 },
 {name: "Uyuni, Bolivia",
   types: ['desert'],
   months: ['february','march','august','september'],
-  about: "New destination. The info section is under construction."
+  about: "Uyuni is a tricky place to travel to, because of the climate and its distance from any major cities. But, it more than makes up for it with the scenery. Uyuni seems to stand in defiance of the desert-like landscape that surrounds it. The salt flats meet the reddish hills that meet the blue sky to create a stunning view for those adventurous enough to visit Uyuni."
 },
 {name: "Namib Desert",
   types: ['desert'],
   months: ['may','june','july','august','september','october'],
-  about: "New destination. The info section is under construction."
+  about: "You've probably seen pictures of the Dead Vlei in Namibia, but that's just the tip of the iceberg. Namibia posesses some of the most stunning landscapes in Africa, and a trip through the country is one of the great road adventures. Here, the oldest desert in the world meets the pristine blue waters of the Atlantic. Here, sand dunes are mountains."
 },
 {name: "Perth, Australia",
   types: ['desert','beach'],
   months: ['january','february','march','april','october','november','december'],
-  about: "New destination. The info section is under construction."
+  about: "Beautiful, laid-back Perth is known for its pleasant weather, easy-going character, and gorgeous beaches. While Perth is about as close to Bali as some of the big cities of eastern Australia, there is tons to do nearby. All in a day you could visit the beach or islands, a delightful river, a nearby desert, and incredibly lovely gardens. As attractive as Perth is, don't forget while you are here that Perth is home to some quite nasty animals: snakes, spiders, sharks, dingos and the infamous box-jellyfish. "
 },
 {name: "Moab, Utah",
   types: ['desert'],
   months: ['may','june','september','october'],
-  about: "New destination. The info section is under construction."
+  about: "Moab is Utah's basecamp. Close to some of the coolest rock formations in America, Moab is within about half-an-hour of Arches National, Canyonlands National Park, and underrated Dead Horse Point. Moab is the perfect place to stay for a nature-lover. You can actually find a restuarant open late and shop for groceries(tequila) until midnight."
 },
 {name: "Manaus, Brazil",
   types: ['rainforest','culture'],
   months: ['may','june','july','august'],
-  about: "New destination. The info section is under construction."
+  about: "Manaus is the largest city in the Amazon at about 3 million. It is home to a bevy of parades and festivals and is a great place to book jungle/rainforest excursions. Manaus is probably best as a jumping-off point, you wouldn't really want to spend too much time here with all of the amazing nature in close proximity."
 },
 {name: "Kuching, Malaysia",
   types: ['rainforest','culture','sea','beach'],
   months: ['may','june','september','october'],
-  about: "New destination. The info section is under construction."
+  about: "Borneo’s most sophisticated city brings together a kaleidoscope of cultures, crafts and cuisines. Chinese temples decorated with dragons abut shophouses from the time of the White Rajahs, a South Indian mosque is a five-minute walk from stalls selling half-a-dozen Asian cuisines, and a landscaped riverfront park attracts families out for a stroll and a quick bite. Kuching’s other huge asset is its day-trip proximity to a dozen first-rate nature sites."
 },
 {name: "Las Vegas, Nevada",
   types: ['desert','culture','city'],
   months: ['january','february','march','april','november','december'],
-  about: "New destination. The info section is under construction."
-}, -  //
+  about: "Las Vegas is such an intriguing concoction; A glamorous 5-mile metropolis stationed in the desert that imports incredible amounts of cash and exports entertainment and debauchery. It really is one of those few types of experiences that you cannot begin to explain - it has to be witnessed first-hand."
+},
 {name: "Ischia, Italy",
   types: ['beach', 'arts', 'sea'],
   months: ['april','may','june','july','august','september'],
-  about: "New destination. The info section is under construction."
+  about: "A perfect alternative to Capri with a fraction of the tourists, and better beaches. It is an elegant blend of sprawling spa towns, abundant gardens, buried necropolises and spectacular scenery, with forests, vineyards and picturesque small towns. Eating here is also a treat. Ischia has excellent seafood and perhaps even better rabbit."
 },
 {name: "Sharm El Sheikh, Egypt",
   types: ['desert','beach'],
   months: ['november','december','january','february','march','april'],
-  about: "New destination. The info section is under construction."
+  about: "This area of Egypt features some of the world’s most amazing underwater scenery. The crystal-clear waters, rare and lovely reefs and an incredible variety of exotic fish darting in and out of the colourful coral have made this a snorkelling and scuba-diving paradise. In a prime position on the coast, incorporating the two adjacent coves of Na'ama Bay and Sharm al-Maya, is the purpose-built resort of Sharm el-Sheikh; a tourism boom town devoted that thrives on all-inclusive tour packages."
 }];
